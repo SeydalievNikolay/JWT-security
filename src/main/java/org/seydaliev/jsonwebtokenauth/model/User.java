@@ -12,7 +12,6 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
 @Builder
 @Document(collation = "user")
 public class User{
